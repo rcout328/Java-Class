@@ -6,8 +6,6 @@ public class IF1 {
         int a;
         System.out.println("Enter First Value");
         a = sc.nextInt();
-        
-        // Write java program minium number among 2 number using conditonal operator
         if(a == 7){
             System.out.println("Get it ");
         }
