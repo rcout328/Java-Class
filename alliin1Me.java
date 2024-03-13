@@ -4,7 +4,6 @@ public class alliin1Me {
         int a = 10;
         int b = 2;
         System.out.println("Sub "+(a-b));
-    
     }
     public static void sum(int a,int b){
         System.out.println("Add " +(a+b));
