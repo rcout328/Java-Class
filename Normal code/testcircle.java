@@ -1,5 +1,12 @@
 import java.util.Scanner;
-
+class circle {
+    float r;
+    public  void area(){
+        float pi=3.14f;
+        float ans =  pi * r * r;
+        System.out.println(ans);
+    }
+}
 
 public class testcircle {
     public static void main(String[] args) {
@@ -11,13 +18,6 @@ public class testcircle {
     
 }
 
-class circle {
-    float r;
-    public  void area(){
-        float pi=3.14f;
-        float ans =  pi * r * r;
-        System.out.println(ans);
-    }
-}
+
 
 
