@@ -9,7 +9,7 @@ class Parent extends Gparant{
     }
 }
 
-class child extends Parent{
+class child extends Gparant{
     public void display2(){
         System.out.println("Child");
     }
@@ -19,8 +19,9 @@ class child extends Parent{
 public class Multi {
     public static void main(String[] args) {
         child c1 = new child();
+        Parent p1 = new Parent();
         c1.display();
-        c1.display1();
+        p1.display1();
         c1.display2();
     }
 }
