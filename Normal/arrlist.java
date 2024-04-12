@@ -5,8 +5,7 @@ public class arrlist {
         ArrayList<String> cityList = new ArrayList();
 
         cityList.add("ahmedabad");
-        
-
+        cityList.add("virpur");
     }
 }
 
@@ -19,7 +18,7 @@ public class arrlist {
 //define a class time with hour & minute also define add method of two time objects
 //super keyword
 //method overriding
-//dyna,ic binding
+//dynamic binding
 //static keyowrd // dynamic bindging
 //type casting
 //this keyword

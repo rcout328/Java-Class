@@ -1,7 +1,7 @@
 public class Strbufr {
     public static void main(String[] args) {
         StringBuffer s1 = new StringBuffer("rcout");
-        System.out.println(s1.delete(2,));
+        System.out.println(s1.delete(2,1));
         System.out.println(s1.insert(0 ,"s"));
         System.out.println(s1.append("scout"));
         System.out.println(s1.deleteCharAt(0));
