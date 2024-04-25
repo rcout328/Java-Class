@@ -24,11 +24,11 @@ class person implements Comparable<person> {
 
 public class ex_person {
     public static void main(String[] args) {
-        person p1 = new person(10, "a");
-        person p2 = new person(11, "b");
-        person p3 = new person(12, "c");
-        person p4 = new person(13, "d");
-        person p5 = new person(14, "e");
+        person p1 = new person(10, "Vpx a");
+        person p2 = new person(11, "Vpx b");
+        person p3 = new person(12, "Vpx c");
+        person p4 = new person(13, "Vpx d");
+        person p5 = new person(14, "Vpx e");
         ArrayList<person> a1 = new ArrayList<>();
         a1.add(p1);
         a1.add(p2);
@@ -37,7 +37,7 @@ public class ex_person {
         a1.add(p5);
         Collections.sort(a1);
         for (person p : a1) {
-            System.out.println(p.name + "__" + p.age);
+            System.out.println(p.name + "_" + p.age);
         }
     }
 }
