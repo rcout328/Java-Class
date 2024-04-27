@@ -8,7 +8,7 @@ class MultiThreadingg implements Runnable {
                 Thread.sleep(2000);  // pauses the thread for 2000 milliseconds (2 seconds)
             }
         } catch (Exception e) {
-            System.out.println(  e.toString());
+            System.out.println( e.toString());
         }
     }
 }

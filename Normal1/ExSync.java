@@ -4,7 +4,7 @@ class Table {
         for (int i = 1; i <= 10; i++) {
             System.out.println(n + " * " + i + " = " + (n * i));
             try {
-                Thread.sleep(2000); // Sleep for 2 seconds
+                Thread.sleep(100); // Sleep for 2 seconds
             } catch (InterruptedException e) {
                 System.out.println(e.toString());
             }
